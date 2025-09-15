@@ -1,5 +1,5 @@
 name: hikari
-description: "A new Flutter project."
+description: "A beautiful and feature-rich Flutter manga reader app built with Riverpod, Dio, and SharedPreferences. Hikari provides a seamless reading experience with support for both classic page-turning and webtoon-style vertical scrolling."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -39,6 +39,7 @@ dependencies:
   shared_preferences: ^2.2.2
   cached_network_image: ^3.3.1
   flutter_staggered_grid_view: ^0.7.0
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
@@ -92,3 +93,7 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/512.png
